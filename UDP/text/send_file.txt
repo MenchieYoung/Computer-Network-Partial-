@@ -1,0 +1,69 @@
+
+<article>タグは、内容が単体で完結するセクションであることを示す際に使用します。 例えば、フォーラムでの投稿、雑誌や新聞の記事、ブログのエントリ、コメントなどです。
+
+<article>を入れ子にして使用する場合、内側の<article>の内容は、原則として外側の<article>の内容に関連していることになります。 例えば、<article>タグでくくられたブログのエントリの内側に、さらに<article>タグでくくられたユーザーコメントを入れ子に配置することで、 そのコメントがそのブログエントリに対して投稿されたものであることを示すことができるでしょう。
+
+この際、ウェブページ内で<address>タグを使って示されている作者情報は、入れ子の内側の<article>の内容にまでは適用されません。
+
+■HTML4.01からHTML5へのバージョンアップによる変更点
+article要素は、HTML5から新たに追加された要素です。
+
+■使用例
+HTMLソース
+<h1>太郎のブログ</h1>
+
+<article>
+<h2><a href= "entry99.html">海釣り</a></h2>
+<p>今日は海釣りに出掛けた…</p>
+<article>
+<h2>コメント</h2>
+<p>いいですね…</p>
+</article>
+</article>
+
+<article>
+<h2><a href= "entry98.html">ドライブ</a></h2>
+<p>今日はドライブに行った…</p>
+<article>
+<h2>コメント</h2>
+<p>はじめまして太郎さん…</p>
+</article>
+</article>
+<address>Posted by 太郎</address>
+Once there was a hardworking girl with a a heart of gold and a wicked stepmother. She got a makeover from a fairy godmother and
+scored a dream date at the ball with a prince who tracked her down by her single lost glass slipper… and this story crossed the
+globe for thousands of years, winning hearts wherever it went. Although our version of “Cinderella” was recorded by 17th-century
+French writer Charles Perrault, according to the well-respected scholarly website Sur La Lune Fairy Tales, there may be as many
+as 1,500 traditional variants of the tale around the world, including “The Girl with the Rose Red Slippers” from ancient Egypt,
+and a ninth-century A.D. Chinese version that just might explain the story’s fascination with small feet.
+
+This is the fantasy that just won’t quit. Apparently “the Cinderella area of [Sur La Lune] receives over twice as many visitors
+as any other tale” every day, and the story has inspired countless modern retellings including Walt Disney’s iconic 1950 cartoon,
+the blockbuster film Pretty Woman, the novel and movie Ella Enchanted, which reimagines its dutiful heroine with a curse that makes
+her obey, and too many others to name. Some even see the familiar fairy tale in the current furor around Meghan Markle’s engagement
+to Prince Harry. Check out these 15 surprising facts about Disney characters.
+
+gvdflkbalkdjfb;aguk;hfkv;fdkjvbfmb,jrhglyhlddfgidbfvuibvkhcxbvhbcxhvbldkufgdlsufgkvgdlkjzxbvdsvjhdxbvnchxkdyvgzkdfjhasdafdxjbdvbxjvbkxjhvb
+lckvhchvbchvblxkcjbvlkzdgblsefhlksgbdxjbv,cxhbvkjxhvzjlhvblsKflsieufgewioaugaoisubfoiaubvdiauvbiabv
+vlhjbvuysdgsdhgisdfhldzkjzhbvjhvkhcjhbdzbgvgdgbvljzsdvbkljbvcjhxbvjhcb
+gvdflkbalkdjfb;aguk;hfkv;fdkjvbfmb,jrhglyhlddfgidbfvuibvkhcxbvhbcxhvbldkufgdlsufgkvgdlkjzxbvdsvjhdxbvnchxkdyvgzkdfjhasdafdxjbdvbxjvbkxjhvb
+lckvhchvbchvblxkcjbvlkzdgblsefhlksgbdxjbv,cxhbvkjxhvzjlhvblsKflsieufgewioaugaoisubfoiaubvdiauvbiabv
+vlhjbvuysdgsdhgisdfhldzkjzhbvjhvkhcjhbdzbgvgdgbvljzsdvbkljbvcjhxbvjhcb
+gvdflkbalkdjfb;aguk;hfkv;fdkjvbfmb,jrhglyhlddfgidbfvuibvkhcxbvhbcxhvbldkufgdlsufgkvgdlkjzxbvdsvjhdxbvnchxkdyvgzkdfjhasdafdxjbdvbxjvbkxjhvb
+lckvhchvbchvblxkcjbvlkzdgblsefhlksgbdxjbv,cxhbvkjxhvzjlhvblsKflsieufgewioaugaoisubfoiaubvdiauvbiabv
+vlhjbvuysdgsdhgisdfhldzkjzhbvjhvkhcjhbdzbgvgdgbvljzsdvbkljbvcjhxbvjhcb
+gvdflkbalkdjfb;aguk;hfkv;fdkjvbfmb,jrhglyhlddfgidbfvuibvkhcxbvhbcxhvbldkufgdlsufgkvgdlkjzxbvdsvjhdxbvnchxkdyvgzkdfjhasdafdxjbdvbxjvbkxjhvb
+lckvhchvbchvblxkcjbvlkzdgblsefhlksgbdxjbv,cxhbvkjxhvzjlhvblsKflsieufgewioaugaoisubfoiaubvdiauvbiabv
+vlhjbvuysdgsdhgisdfhldzkjzhbvjhvkhcjhbdzbgvgdgbvljzsdvbkljbvcjhxbvjhcb
+gvdflkbalkdjfb;aguk;hfkv;fdkjvbfmb,jrhglyhlddfgidbfvuibvkhcxbvhbcxhvbldkufgdlsufgkvgdlkjzxbvdsvjhdxbvnchxkdyvgzkdfjhasdafdxjbdvbxjvbkxjhvb
+lckvhchvbchvblxkcjbvlkzdgblsefhlksgbdxjbv,cxhbvkjxhvzjlhvblsKflsieufgewioaugaoisubfoiaubvdiauvbiabv
+vlhjbvuysdgsdhgisdfhldzkjzhbvjhvkhcjhbdzbgvgdgbvljzsdvbkljbvcjhxbvjhcb
+gvdflkbalkdjfb;aguk;hfkv;fdkjvbfmb,jrhglyhlddfgidbfvuibvkhcxbvhbcxhvbldkufgdlsufgkvgdlkjzxbvdsvjhdxbvnchxkdyvgzkdfjhasdafdxjbdvbxjvbkxjhvb
+lckvhchvbchvblxkcjbvlkzdgblsefhlksgbdxjbv,cxhbvkjxhvzjlhvblsKflsieufgewioaugaoisubfoiaubvdiauvbiabv
+vlhjbvuysdgsdhgisdfhldzkjzhbvjhvkhcjhbdzbgvgdgbvljzsdvbkljbvcjhxbvjhcb
+gvdflkbalkdjfb;aguk;hfkv;fdkjvbfmb,jrhglyhlddfgidbfvuibvkhcxbvhbcxhvbldkufgdlsufgkvgdlkjzxbvdsvjhdxbvnchxkdyvgzkdfjhasdafdxjbdvbxjvbkxjhvb
+lckvhchvbchvblxkcjbvlkzdgblsefhlksgbdxjbv,cxhbvkjxhvzjlhvblsKflsieufgewioaugaoisubfoiaubvdiauvbiabv
+vlhjbvuysdgsdhgisdfhldzkjzhbvjhvkhcjhbdzbgvgdgbvljzsdvbkljbvcjhxbvjhcb
+gvdflkbalkdjfb;aguk;hfkv;fdkjvbfmb,jrhglyhlddfgidbfvuibvkhcxbvhbcxhvbldkufgdlsufgkvgdlkjzxbvdsvjhdxbvnchxkdyvgzkdfjhasdafdxjbdvbxjvbkxjhvb
+lckvhchvbchvblxkcjbvlkzdgblsefhlksgbdxjbv,cxhbvkjxhvzjlhvblsKflsieufgewioaugaoisubfoiaubvdiauvbiabv
+vlhjbvuysdgsdhgisdfhldzkjzhbvjhvkhcjhbdzbgvgdgbvljzsdvbkljbvcjhxbvjhcb
